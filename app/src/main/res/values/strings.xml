@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScrapbookApp</string>
+
+    <string name="camera_button">New Photo</string>
+    <string name="new_note_button">New Note</string>
+    <string name="note_title_label">Title:</string>
+    <string name="note_title_hint">Enter a title for your note</string>
+    <string name="note_contents_label">Body:</string>
+    <string name="note_contents_hint">Enter your notes body here</string>
+    <string name="note_keywords_label">Keywords</string>
+    <string name="note_keywords_hint">example: #sunny #happy #yellow</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
