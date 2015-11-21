@@ -49,4 +49,17 @@
         android:textStyle="bold"
         android:hint="@string/note_keywords_hint"/>
 
+    <Button
+        android:id="@+id/save_note_button"
+        android:text="Save Changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/delete_note_button"
+        android:text="Delete Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
 </LinearLayout>

@@ -14,6 +14,8 @@ import java.util.UUID;
  */
 public class NoteLab {
 
+    NotesDbOpenHelper db = new NotesDbOpenHelper(getContext());
+
     private static NoteLab sNoteList;
 
     private List<Note> mNotes;
@@ -29,6 +31,7 @@ public class NoteLab {
     }
 
     private NoteLab(Context context) {
+
         //TODO get notes from database
         //populates list with temporary notes
         mNotes = new ArrayList<>();
