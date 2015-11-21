@@ -9,7 +9,7 @@ import java.util.UUID;
 /**
  * Created by Josiah Williams on 11/16/2015.
  */
-public class NoteActivity extends SingleFragmentActivity {
+public class NoteActivity extends MainFragmentWithButtons {
 
     private static final String EXTRA_NOTE_ID = "com.example.josiahwilliams.scrapbookapp.note_id";
 
